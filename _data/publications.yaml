@@ -31,7 +31,7 @@ papers:
     authors: "Patrick Huber<sup>‡</sup>, <b>Linzi Xing<sup>‡</sup></b>, and Giuseppe Carenini"
     venue: "In Proceedings of the 36th AAAI Conference on Artificial Intelligence (AAAI-22). 2022"
     paper_pdf: "/assets/publications/2022_aaai/paper.pdf"
-    poster: "/assets/publications/2022_aaai/poster.pdf"
+    slides: "/assets/publications/2022_aaai/slides.pdf"
     selected: y
 
   - title: "Demoting the Lead Bias in News Summarization via Alternating Adversarial Learning"
@@ -44,9 +44,9 @@ papers:
   - title: "Improving Unsupervised Dialogue Topic Segmentation with Utterance-Pair Coherence Scoring"
     authors: "<b>Linzi Xing</b>, and Giuseppe Carenini"
     venue: "In Proceedings of the 22nd Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDIAL 2021). 2021"
-    paper_pdf: "/assets/publications/2015_one_pass_ranking_models/paper.pdf"
-    code: "/assets/publications/2015_one_pass_ranking_models/poster.pdf"
-    video: "/assets/publications/2015_one_pass_ranking_models/slides.pdf"
+    paper_pdf: "/assets/publications/2021_sigdial/paper.pdf"
+    code: "https://github.com/lxing532/Dialogue-Topic-Segmenter"
+    video: "https://www.youtube.com/watch?v=04Urc5LRBlk"
     selected: y
 
   - title: "Improving Context Modeling in Neural Topic Segmentation"
