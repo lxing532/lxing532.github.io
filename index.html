@@ -2,9 +2,9 @@
 layout: default
 title: Home
 ---
-<!-- ========== BIO ========== -->
-<div class="docs-section" id="bio">
-  <h4>Bio</h4>
+<!-- ========== About ========== -->
+<div class="docs-section" id="about">
+  <h4>About</h4>
   <p>
   My research develops tools for analyzing <b>large-scale social data</b>, aiming to provide a better understanding of <b>social structure and behaviors</b> online while also impacting the <b>design of digital social systems</b>. 
   My recent work has focused on reducing political polarization online 
@@ -20,6 +20,59 @@ title: Home
   <a href="assets/publications/2019_biometrika/paper.pdf" target="_blank">Biometrika'19</a>]. 
   My research often falls at the intersections of Social Networks, Machine Learning, and Causal Inference.
   </p>
+</div>
+
+
+<!-- ========== News ========== -->
+<div class="docs-section" id="news">
+  <h4>News</h4>
+    <ul>
+      <li>
+        <b style="color:cadetblue">[May. 2023]</b>&nbsp&nbsp
+        I will be spending this summer in Cambridge, MA as a research intern at <b>MIT-IBM Watson AI Lab</b>!
+      </li>
+      <li>
+        <b style="color:cadetblue">[May. 2023]</b>&nbsp&nbsp
+        My first PhD work on cost-efficient fine-tuning of compact models has been accepted to <b>ACL 2023</b>!
+      </li>
+      <li>
+        <b style="color:cadetblue">[Oct. 2022]</b> &nbsp&nbsp
+        Our paper on Graph-Induced Transformers (GIT) has been accepted to <b>EMNLP 2022</b>!
+      </li>
+      <li>
+        <b style="color:cadetblue">[Aug. 2022]</b>&nbsp&nbsp
+        Started my Ph.D. journey at <b>Georgia Tech</b>!
+      </li>
+    </ul>
+</div>
+
+
+<!-- ========== Education ========== -->
+<div class="docs-section" id="education">
+  <h4>Education</h4>
+        <div class="paper">
+          <p class="title"><b>Georgia Institute of Technology<b style="float:right;">Aug. 2022 - Present</b></b></p>
+          
+          <p>Ph.D. in Computer Science</p>
+          <p>GPA: 4.0/4.0</p>
+          <p></p>
+        </div>
+
+        <div class="paper">
+          <p class="title"><b>Korea Advanced Institute of Science and Technology (KAIST)<b style="float:right;">Feb. 2019 - Feb. 2021</b></b></p>
+          
+          <p>M.S. in Computer Science</p>
+          <p>GPA: 4.03/4.3</p>
+          <p></p>
+        </div>
+      
+        <div class="paper">
+          <p class="title"><b>Chungnam National University<b style="float:right;">Mar. 2012 - Feb. 2019</b></b></p>
+          
+          <p>B.E. in Computer Science & Engineering (<i>Summa Cum Laude</i>)</p>
+          <p>GPA: 4.3/4.5 (Rank: 1/125 in CSE, Major GPA: 4.41)</p>
+          <p></p>
+        </div>
 </div>
 
 
@@ -112,80 +165,6 @@ title: Home
   </div>
 </div>
 
-<!-- ========== PROJECTS ========== 
-<div class="docs-section" id="projects">
-  <h4>Projects</h4>
-
-  <ul class="tab-nav">
-    <li><div class="button active" data-ref="#projects-selected">Selected</div></li>
-    <li><div class="button" data-ref="#projects-all">All</div></li>
-  </ul>
-
-  <div class="tab-content">
-    <div class="tab-pane active" id="projects-selected">
-      {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
-      {% for project in selected_projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
-          <div class="row">
-        {% endif %}
-
-          <div class="four columns">
-            <div class="project-container">
-
-                <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                  </a>
-                </div>
-
-                <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
-                </div>
-
-            </div>
-          </div>
-
-        {% if index_modulo == 2 %}
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-
-    <div class="tab-pane" id="projects-all">
-      {% for project in site.data.projects.projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
-          <div class="row">
-        {% endif %}
-
-          <div class="four columns">
-            <div class="project-container">
-
-                <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                  </a>
-                </div>
-
-                <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
-                </div>
-
-            </div>
-          </div>
-
-        {% if index_modulo == 2 %}
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-  </div>
-
-</div>
--->
 
 <!-- ========== RESUME ========== -->
 <div class="docs-section" id="resume">
