@@ -1,5 +1,10 @@
 papers:
 
+  - title: "Tracing Influence at Scale: A Contrastive Learning Approach to Linking Public Comments and Regulator Responses"
+    authors: "<b>Linzi Xing</b>, Brad Hackinen, and Giuseppe Carenini"
+    venue: "In Proceedings of the 5th Natural Legal Language Processing Worksho (NLLP 2023). 2023"
+    selected: n
+
   - title: "TeX2Solver: a Hierarchical Semantic Parsing of TeX Document into Code for an Assistive Optimization Modeling Application"
     authors: "Rindra Ramamonjison, Timothy Yu, <b>Linzi Xing</b>, Mahdi Mostajabdaveh, Xiaorui Li, Xiaojin Fu, Xiongwei Han, Yuanzhe Chen, Ren Li, Kun Mao, and Yong Zhang"
     venue: "In Proceedings of the 61st Annual Meeting of Association for Computational Linguistics (ACL 2023: Demo). 2023"
