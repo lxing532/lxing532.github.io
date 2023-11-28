@@ -59,6 +59,7 @@ papers:
     paper_pdf: "/assets/publications/2021_sigdial/paper.pdf"
     code: "https://github.com/lxing532/Dialogue-Topic-Segmenter"
     video: "https://www.youtube.com/watch?v=04Urc5LRBlk"
+    media: "https://www.youtube.com/watch?v=i8WUJZk5_I8"
     selected: y
 
   - title: "Improving Context Modeling in Neural Topic Segmentation"
