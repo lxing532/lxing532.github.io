@@ -1,8 +1,15 @@
 papers:
 
+  - title: "Multi-Modal Video Topic Segmentation with Dual-Contrastive Domain Adaptation"
+    authors: "<b>Linzi Xing</b>, Quan Hung Tran, Fabian Caba Heilbron, Franck Dernoncourt, David Seunghyun Yoon, Zhaowen Wang, Trung Bui, and Giuseppe Carenini"
+    venue: "In Proceedings of the 30th International Conference on Multimedia Modeling (MMM 2024). 2024"
+    selected: y
+
   - title: "Tracing Influence at Scale: A Contrastive Learning Approach to Linking Public Comments and Regulator Responses"
     authors: "<b>Linzi Xing</b>, Brad Hackinen, and Giuseppe Carenini"
     venue: "In Proceedings of the 5th Natural Legal Language Processing Worksho (NLLP 2023). 2023"
+    paper_pdf: "https://arxiv.org/pdf/2311.14871.pdf"
+    code: "https://github.com/bradhackinen/comment_response_linking"
     selected: n
 
   - title: "TeX2Solver: a Hierarchical Semantic Parsing of TeX Document into Code for an Assistive Optimization Modeling Application"
