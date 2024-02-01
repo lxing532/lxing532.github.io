@@ -3,6 +3,8 @@ papers:
   - title: "Multi-Modal Video Topic Segmentation with Dual-Contrastive Domain Adaptation"
     authors: "<b>Linzi Xing</b>, Quan Hung Tran, Fabian Caba Heilbron, Franck Dernoncourt, David Seunghyun Yoon, Zhaowen Wang, Trung Bui, and Giuseppe Carenini"
     venue: "In Proceedings of the 30th International Conference on Multimedia Modeling (MMM 2024). 2024"
+    paper_pdf: "/assets/publications/2024_mmm/paper.pdf"
+    poster: "/assets/publications/2024_mmm/poster.pdf"
     selected: y
 
   - title: "Tracing Influence at Scale: A Contrastive Learning Approach to Linking Public Comments and Regulator Responses"
