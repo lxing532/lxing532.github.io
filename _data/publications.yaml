@@ -1,5 +1,10 @@
 papers:
 
+  - title: "Towards Human-aligned Evaluation for Linear Programming Word Problems"
+    authors: "<b>Linzi Xing</b>, Xinglu Wang, Yuxi Feng, Zhenan Fan, Jing Xiong, Zhijiang Guo, Xiaojin Fu, Rindra Ramamonjison, Mahdi Mostajabdaveh, Xiongwei Han, Zirui Zhou and Yong Zhang"
+    venue: "In Proceedings of the Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024). 2024"
+    selected: y
+
   - title: "Multi-Modal Video Topic Segmentation with Dual-Contrastive Domain Adaptation"
     authors: "<b>Linzi Xing</b>, Quan Hung Tran, Fabian Caba Heilbron, Franck Dernoncourt, David Seunghyun Yoon, Zhaowen Wang, Trung Bui, and Giuseppe Carenini"
     venue: "In Proceedings of the 30th International Conference on Multimedia Modeling (MMM 2024). 2024"
